@@ -1,0 +1,14 @@
+html, body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.back{
+  background-image: url(TUS_logo.bmp);
+  width: 400px;
+  height: 400px;
+  background-size: cover;
+  top: 10%;
+  margin: 0 auto;
+  position: relative;
+}
