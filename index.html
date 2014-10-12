@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      html, body{
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      .back{
+        background-image: url("back.jpg");
+        background-size: cover;
+        position: absolute;
+        -moz-animation: backaction 15s infinite alternate;
+        -webkit-animation: backaction 15s infinite alternate;
+        -o-animation: backaction 15s infinite alternate;
+        -ms-animation: backaction 15s infinite alternate;
+      }
+      .box{
+        -moz-animation: anime1 15s ease -2s infinite alternate;
+        -webkit-animation: anime1 15s ease -15s infinite alternate;
+        -o-animation: anime1 15s ease -2s infinite alternate;
+        -ms-animation: anime1 15s ease -2s infinite alternate;
+      }
+
+      @-moz-keyframes backaction {
+        0% {width: 100%; background-position: 100px; background-color: aqua;}
+        100% {width: 100%; height: 100%; background-color: blue; background-position: 1000px;}
+      }
+
+      @-webkit-keyframes backaction {
+        0% {width: 100%; background-position: 100px; background-color: aqua;}
+        100% {width: 100%; height: 100%; background-color: blue; background-position: 1000px;}
+      }
+
+      @-o-keyframes backaction {
+        0% {width: 100%; background-position: 100px; background-color: aqua;}
+        100% {width: 100%; height: 100%; background-color: blue; background-position: 1000px;}
+      }
+
+      @-ms-keyframes backaction {
+        0% {width: 100%; background-position: 100px; background-color: aqua;}
+        100% {width: 100%; height: 100%; background-color: blue; background-position: 1000px;}
+      }
+
+
+      </style>
+  </head>
+  <body>
+    <div class="back"></div>
+    <div class="box" style="width: 50px; height: 100%;"></div>
+  </body>
+</html>
