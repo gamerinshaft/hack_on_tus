@@ -37,7 +37,10 @@ html, body{
   font-size: 44px;
   top: 9%;
   transform: rotate(-39deg);
-}
+  -moz-transform: rotate(-39deg);
+  -webkit-transform: rotate(-39deg);
+  -o-transform: rotate(-39deg);
+  -ms-transform: rotate(-39deg);
 /*-------------たいへい-------------*/
 /*-------------がっ死ー-------------*/
 /*-------------みっつー-------------*/
