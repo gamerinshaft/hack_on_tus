@@ -33,9 +33,9 @@ html, body{
   font-weight: bold;
 }
 .T{
-  left: 37.5%;
+  left: 368px;
   font-size: 44px;
-  top: 9%;
+  top: 36px;
   transform: rotate(-39deg);
   -moz-transform: rotate(-39deg);
   -webkit-transform: rotate(-39deg);
