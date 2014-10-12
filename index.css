@@ -1,14 +1,44 @@
+/*-------------基本設定-------------*/
 html, body{
   height: 100%;
   margin: 0;
   padding: 0;
+}
+
+.panel{
+  width: 980px;
+  position: relative;
+  margin: 0 auto;
 }
 .back{
   background-image: url(TUS_logo.bmp);
   width: 400px;
   height: 400px;
   background-size: cover;
-  top: 10%;
+  top: 20%;
   margin: 0 auto;
   position: relative;
 }
+.object{
+  position: absolute;
+  color: rgb(142, 76, 88);
+  z-index: 2;
+}
+
+
+
+/*-------------種市-------------*/
+.word{
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.T{
+  left: 37.5%;
+  font-size: 44px;
+  top: 9%;
+  transform: rotate(-39deg);
+}
+/*-------------たいへい-------------*/
+/*-------------がっ死ー-------------*/
+/*-------------みっつー-------------*/
+/*-------------なおこさん-------------*/
