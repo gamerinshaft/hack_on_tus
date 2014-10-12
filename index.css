@@ -40,6 +40,17 @@ html, body{
   -webkit-transform: rotate(-39deg);
   -o-transform: rotate(-39deg);
   -ms-transform: rotate(-39deg);
+}
+.O{
+  left: 393.2px;
+  font-size: 44px;
+  top: 18px;
+  transform: rotate(-24deg);
+  -moz-transform: rotate(-24deg);
+  -webkit-transform: rotate(-24deg);
+  -o-transform: rotate(-24deg);
+  -ms-transform: rotate(-24deg);
+}
 /*-------------たいへい-------------*/
 /*-------------がっ死ー-------------*/
 /*-------------みっつー-------------*/
