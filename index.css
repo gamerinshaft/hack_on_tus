@@ -1,8 +1,30 @@
+/*-------------カラーセット-------------*/
+@-moz-keyframes anime1 {
+0% {background-color: rgba();}
+100% {background-color: blue;}
+}
+
+@-webkit-keyframes anime1 {
+0% {width: 50px; height: 50px; background-color: aqua;}
+100% {width: 200px; height: 50px; background-color: blue;}
+}
+
+@-o-keyframes anime1 {
+0% {width: 50px; height: 50px; background-color: aqua;}
+100% {width: 200px; height: 50px; background-color: blue;}
+}
+
+@-ms-keyframes anime1 {
+0% {width: 50px; height: 50px; background-color: aqua;}
+100% {width: 200px; height: 50px; background-color: blue;}
+}
+
 /*-------------基本設定-------------*/
 html, body{
   height: 100%;
   margin: 0;
   padding: 0;
+  background-color: black;
 }
 
 .panel{
@@ -11,6 +33,7 @@ html, body{
   margin: 0 auto;
 }
 .back{
+  display: none;
   background-image: url(TUS_logo.bmp);
   width: 400px;
   height: 400px;
@@ -20,8 +43,14 @@ html, body{
 }
 .object{
   position: absolute;
-  color: rgb(142, 76, 88);
   z-index: 2;
+}
+.bg-color{
+  background-color: rgb(57, 131, 86) !important;
+}
+.color{
+  border-color: rgb(57, 131, 86) !important;
+  color: rgb(57, 131, 86) !important;
 }
 
 
@@ -351,6 +380,63 @@ html, body{
   -ms-transform: rotate(69deg);
 }
 /*-------------たいへい-------------*/
+.taihei-c-r{
+  position: absolute;
+  width: 55px;
+  height: 288px;
+  top: 59px;
+  overflow: hidden;
+  left: 508px;
+}
+.taihei-c-l{
+  transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  position: absolute;
+  width: 55px;
+  height: 288px;
+  top: 59px;
+  overflow: hidden;
+  left: 414px;
+}
+.taihei-c-t{
+  transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  position: absolute;
+  width: 55px;
+  height: 280px;
+  top: 15px;
+  overflow: hidden;
+  left: 461px;
+}
+.taihei-c-b{
+  transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  position: absolute;
+  width: 55px;
+  height: 280px;
+  top: 112px;
+  overflow: hidden;
+  left: 461px;
+}
+.taihei {
+  width: 357px;
+  height: 401px;
+  border-right: 13px solid rgb(57,131,86);
+  border-radius: 0px 50% 50% 0px;
+  position: absolute;
+  z-index: 99;
+  left: -315px;
+  top: -60px;
+}
 /*-------------がっ死ー-------------*/
 .arc-r {
   transform: rotate(0deg);
@@ -424,8 +510,6 @@ html, body{
   position: absolute;
   width: 96px;
   height: 98px;
-  background-color: red;
-  background-color: red;
   border-radius: 50px 50px;
   z-index: 5;
   top: 155px;
