@@ -1,735 +1,36 @@
-/*-------------カラーセット-------------*/
-@-moz-keyframes bg-anime1 {
-0% {background-color: white;}
-50%{background-color: orange;}
-100% {background-color: rgb(57, 131, 86);}
-}
-
-@-webkit-keyframes bg-anime1 {
-0% {background-color: white;}
-50%{background-color: orange;}
-100% {background-color: rgb(57, 131, 86);}
-}
-
-@-o-keyframes bg-anime1 {
-0% {background-color: white;}
-50%{background-color: orange;}
-100% {background-color: rgb(57, 131, 86);}
-}
-
-@-ms-keyframes bg-anime1 {
-0% {background-color: white;}
-50%{background-color: orange;}
-100% {background-color: rgb(57, 131, 86);}
-}
-
-@-moz-keyframes color-anime1 {
-0% {border-color: #d5aaaa; color: #d5aaaa;}
-33%{border-color: #381d1d; color: #381d1d;}
-66% {border-color: #ea9595; color: #ea9595;}
-100% {border-color: #470e0e; color: #470e0e;}
-}
-
-@-webkit-keyframes color-anime1 {
-0% {border-color: #d5aaaa; color: #d5aaaa;}
-33%{border-color: #381d1d; color: #381d1d;}
-66% {border-color: #ea9595; color: #ea9595;}
-100% {border-color: #470e0e; color: #470e0e;}
-}
-
-@-o-keyframes color-anime1 {
-0% {border-color: #d5aaaa; color: #d5aaaa;}
-33%{border-color: #381d1d; color: #381d1d;}
-66% {border-color: #ea9595; color: #ea9595;}
-100% {border-color: #470e0e; color: #470e0e;}
-}
-
-@-ms-keyframes color-anime1 {
-0% {border-color: #d5aaaa; color: #d5aaaa;}
-33%{border-color: #381d1d; color: #381d1d;}
-66% {border-color: #ea9595; color: #ea9595;}
-100% {border-color: #470e0e; color: #470e0e;}
-}
-/*--------------------------*/
-@-moz-keyframes color-anime2 {
-0% {border-color: #ea9595; color: #ea9595;}
-33% {border-color: #470e0e; color: #470e0e;}
-}
-
-@-webkit-keyframes color-anime2 {
-0% {border-color: #ea9595; color: #ea9595;}
-33% {border-color: #470e0e; color: #470e0e;}
-}
-
-@-o-keyframes color-anime2 {
-0% {border-color: #ea9595; color: #ea9595;}
-33% {border-color: #470e0e; color: #470e0e;}
-}
-
-@-ms-keyframes color-anime2 {
-0% {border-color: #ea9595; color: #ea9595;}
-33% {border-color: #470e0e; color: #470e0e;}
-}
-/*--------------------------*/
-@-moz-keyframes color-anime3 {
-0% {border-color: #ff8080; color: #ff8080;}
-33% {border-color: rgb(57, 131, 86); color: rgb(57, 131, 86);}
-}
-
-@-webkit-keyframes color-anime3 {
-0% {border-color: #ff8080; color: #ff8080;}
-33% {border-color: #550000; color: #550000;}
-}
-
-@-o-keyframes color-anime3 {
-0% {border-color: #ff8080; color: #ff8080;}
-33% {border-color: #550000; color: #550000;}
-}
-
-@-ms-keyframes color-anime3 {
-0% {border-color: #ff8080; color: #ff8080;}
-33% {border-color: #550000; color: #550000;}
-}
-
-/*--------------------------*/
-@-moz-keyframes color-anime4 {
-0% {border-color: #ffbf80; color: #ffbf80;}
-33% {border-color: #552b00; color: #552b00;}
-}
-
-@-webkit-keyframes color-anime4 {
-0% {border-color: #ffbf80; color: #ffbf80;}
-33% {border-color: #552b00; color: #552b00;}
-}
-
-@-o-keyframes color-anime4 {
-0% {border-color: #ffbf80; color: #ffbf80;}
-33% {border-color: #552b00; color: #552b00;}
-}
-
-@-ms-keyframes color-anime4 {
-0% {border-color: #ffbf80; color: #ffbf80;}
-33% {border-color: #552b00; color: #552b00;}
-}
-/*--------------------------*/
-@-moz-keyframes color-anime5 {
-0% {border-color: #ffff80; color: #ffff80;}
-33% {border-color: #555500; color: #555500;}
-}
-
-@-webkit-keyframes color-anime5 {
-0% {border-color: #ffff80; color: #ffff80;}
-33% {border-color: #555500; color: #555500;}
-}
-
-@-o-keyframes color-anime5 {
-0% {border-color: #ffff80; color: #ffff80;}
-33% {border-color: #555500; color: #555500;}
-}
-
-@-ms-keyframes color-anime5 {
-0% {border-color: #ffff80; color: #ffff80;}
-33% {border-color: #555500; color: #555500;}
-}
-
-/*--------------------------*/
-@-moz-keyframes color-anime6 {
-0% {border-color: #bfea95; color: #bfea95;}
-33% {border-color: #2b470e; color: #2b470e;}
-}
-
-@-webkit-keyframes color-anime6 {
-0% {border-color: #bfea95; color: #bfea95;}
-33% {border-color: #2b470e; color: #2b470e;}
-}
-
-@-o-keyframes color-anime6 {
-0% {border-color: #bfea95; color: #bfea95;}
-33% {border-color: #2b470e; color: #2b470e;}
-}
-
-@-ms-keyframes color-anime6 {
-0% {border-color: #bfea95; color: #bfea95;}
-33% {border-color: #2b470e; color: #2b470e;}
-}
-
-/*--------------------------*/
-@-moz-keyframes color-anime7 {
-0% {border-color: #bfff80; color: #bfff80;}
-33% {border-color: #2b5500; color: #2b5500;}
-}
-
-@-webkit-keyframes color-anime7 {
-0% {border-color: #bfff80; color: #bfff80;}
-33% {border-color: #2b5500; color: #2b5500;}
-}
-
-@-o-keyframes color-anime7 {
-0% {border-color: #bfff80; color: #bfff80;}
-33% {border-color: #2b5500; color: #2b5500;}
-}
-
-@-ms-keyframes color-anime7 {
-0% {border-color: #bfff80; color: #bfff80;}
-33% {border-color: #2b5500; color: #2b5500;}
-}
-
-/*--------------------------*/
-@-moz-keyframes color-anime8 {
-0% {border-color: #aad5aa; color: #aad5aa;}
-33% {border-color: #1d381d; color: #1d381d;}
-}
-
-@-webkit-keyframes color-anime8 {
-0% {border-color: #aad5aa; color: #aad5aa;}
-33% {border-color: #1d381d; color: #1d381d;}
-}
-
-@-o-keyframes color-anime8 {
-0% {border-color: #aad5aa; color: #aad5aa;}
-33% {border-color: #1d381d; color: #1d381d;}
-}
-
-@-ms-keyframes color-anime8 {
-0% {border-color: #aad5aa; color: #aad5aa;}
-33% {border-color: #1d381d; color: #1d381d;}
-}
-
-/*--------------------------*/
-@-moz-keyframes color-anime9{
-0% {border-color: #95ea95; color: #95ea95;}
-33% {border-color: #0e470e; color: #0e470e;}
-}
-
-@-webkit-keyframes color-anime9{
-0% {border-color: #95ea95; color: #95ea95;}
-33% {border-color: #0e470e; color: #0e470e;}
-}
-
-@-o-keyframes color-anime9{
-0% {border-color: #95ea95; color: #95ea95;}
-33% {border-color: #0e470e; color: #0e470e;}
-}
-
-@-ms-keyframes color-anime9{
-0% {border-color: #95ea95; color: #95ea95;}
-33% {border-color: #0e470e; color: #0e470e;}
-}
-
-/*--------------------------*/
-@-moz-keyframes color-anime10 {
-0% {border-color: #80ff80; color: #80ff80;}
-33% {border-color: #005500; color: #005500;}
-}
-
-@-webkit-keyframes color-anime10 {
-0% {border-color: #80ff80; color: #80ff80;}
-33% {border-color: #005500; color: #005500;}
-}
-
-@-o-keyframes color-anime10 {
-0% {border-color: #80ff80; color: #80ff80;}
-33% {border-color: #005500; color: #005500;}
-}
-
-@-ms-keyframes color-anime10 {
-0% {border-color: #80ff80; color: #80ff80;}
-33% {border-color: #005500; color: #005500;}
-}
-
-/*--------------------------*/
-@-moz-keyframes color-anime11 {
-0% {border-color: #95eabf; color: #95eabf;}
-33% {border-color: #0e472b; color: #0e472b;}
-}
-
-@-webkit-keyframes color-anime11 {
-0% {border-color: #95eabf; color: #95eabf;}
-33% {border-color: #0e472b; color: #0e472b;}
-}
-
-@-o-keyframes color-anime11 {
-0% {border-color: #95eabf; color: #95eabf;}
-33% {border-color: #0e472b; color: #0e472b;}
-}
-
-@-ms-keyframes color-anime11 {
-0% {border-color: #95eabf; color: #95eabf;}
-33% {border-color: #0e472b; color: #0e472b;}
-}
-
-/*--------------------------*/
-@-moz-keyframes color-anime12 {
-0% {border-color: #80ffbf; color: #80ffbf;}
-33% {border-color: #00552b; color: #00552b;}
-}
-
-@-webkit-keyframes color-anime12 {
-0% {border-color: #80ffbf; color: #80ffbf;}
-33% {border-color: #00552b; color: #00552b;}
-}
-
-@-o-keyframes color-anime12 {
-0% {border-color: #80ffbf; color: #80ffbf;}
-33% {border-color: #00552b; color: #00552b;}
-}
-
-@-ms-keyframes color-anime12 {
-0% {border-color: #80ffbf; color: #80ffbf;}
-33% {border-color: #00552b; color: #00552b;}
-}
-
-/*--------------------------*/
-@-moz-keyframes color-anime13 {
-0% {border-color: #95eaea; color: #95eaea;}
-33% {border-color: #0e4747; color: #0e4747;}
-}
-
-@-webkit-keyframes color-anime13 {
-0% {border-color: #95eaea; color: #95eaea;}
-33% {border-color: #0e4747; color: #0e4747;}
-}
-
-@-o-keyframes color-anime13 {
-0% {border-color: #95eaea; color: #95eaea;}
-33% {border-color: #0e4747; color: #0e4747;}
-}
-
-@-ms-keyframes color-anime13 {
-0% {border-color: #95eaea; color: #95eaea;}
-33% {border-color: #0e4747; color: #0e4747;}
-}
-
-/*--------------------------*/
-@-moz-keyframes color-anime14 {
-0% {border-color: #80ffff; color: #80ffff;}
-33% {border-color: #005555; color: #005555;}
-}
-
-@-webkit-keyframes color-anime14 {
-0% {border-color: #80ffff; color: #80ffff;}
-33% {border-color: #005555; color: #005555;}
-}
-
-@-o-keyframes color-anime14 {
-0% {border-color: #80ffff; color: #80ffff;}
-33% {border-color: #005555; color: #005555;}
-}
-
-@-ms-keyframes color-anime14 {
-0% {border-color: #80ffff; color: #80ffff;}
-33% {border-color: #005555; color: #005555;}
-}
-
-/*--------------------------*/
-@-moz-keyframes color-anime15 {
-0% {border-color: #95bfea; color: #95bfea;}
-33% {border-color: #0e2b47; color: #0e2b47;}
-}
-
-@-webkit-keyframes color-anime15 {
-0% {border-color: #95bfea; color: #95bfea;}
-33% {border-color: #0e2b47; color: #0e2b47;}
-}
-
-@-o-keyframes color-anime15 {
-0% {border-color: #95bfea; color: #95bfea;}
-33% {border-color: #0e2b47; color: #0e2b47;}
-}
-
-@-ms-keyframes color-anime15 {
-0% {border-color: #95bfea; color: #95bfea;}
-33% {border-color: #0e2b47; color: #0e2b47;}
-}
-
-/*--------------------------*/
-@-moz-keyframes color-anime16 {
-0% {border-color: #80bfff; color: #80bfff;}
-33% {border-color: #002b55; color: #002b55;}
-}
-
-@-webkit-keyframes color-anime16 {
-0% {border-color: #80bfff; color: #80bfff;}
-33% {border-color: #002b55; color: #002b55;}
-}
-
-@-o-keyframes color-anime16 {
-0% {border-color: #80bfff; color: #80bfff;}
-33% {border-color: #002b55; color: #002b55;}
-}
-
-@-ms-keyframes color-anime16 {
-0% {border-color: #80bfff; color: #80bfff;}
-33% {border-color: #002b55; color: #002b55;}
-}
-
-/*--------------------------*/
-@-moz-keyframes color-anime17 {
-0% {border-color: #9595ea; color: #9595ea;}
-33% {border-color: #0e0e47; color: #0e0e47;}
-}
-
-@-webkit-keyframes color-anime17 {
-0% {border-color: #9595ea; color: #9595ea;}
-33% {border-color: #0e0e47; color: #0e0e47;}
-}
-
-@-o-keyframes color-anime17 {
-0% {border-color: #9595ea; color: #9595ea;}
-33% {border-color: #0e0e47; color: #0e0e47;}
-}
-
-@-ms-keyframes color-anime17 {
-0% {border-color: #9595ea; color: #9595ea;}
-33% {border-color: #0e0e47; color: #0e0e47;}
-}
-
-/*--------------------------*/
-@-moz-keyframes color-anime18 {
-0% {border-color: #8080ff; color: #8080ff;}
-33% {border-color: #000055; color: #000055;}
-}
-
-@-webkit-keyframes color-anime18 {
-0% {border-color: #8080ff; color: #8080ff;}
-33% {border-color: #000055; color: #000055;}
-}
-
-@-o-keyframes color-anime18 {
-0% {border-color: #8080ff; color: #8080ff;}
-33% {border-color: #000055; color: #000055;}
-}
-
-@-ms-keyframes color-anime18 {
-0% {border-color: #8080ff; color: #8080ff;}
-33% {border-color: #000055; color: #000055;}
-}
-/*--------------------------*/
-@-moz-keyframes color-anime19 {
-0% {border-color: #bf95ea; color: #bf95ea;}
-33% {border-color: #2b0e47; color: #2b0e47;}
-}
-
-@-webkit-keyframes color-anime19 {
-0% {border-color: #bf95ea; color: #bf95ea;}
-33% {border-color: #2b0e47; color: #2b0e47;}
-}
-
-@-o-keyframes color-anime19 {
-0% {border-color: #bf95ea; color: #bf95ea;}
-33% {border-color: #2b0e47; color: #2b0e47;}
-}
-
-@-ms-keyframes color-anime19 {
-0% {border-color: #bf95ea; color: #bf95ea;}
-33% {border-color: #2b0e47; color: #2b0e47;}
-}
-/*--------------------------*/
-@-moz-keyframes color-anime20 {
-0% {border-color: #bf80ff; color: #bf80ff;}
-33% {border-color: #2b0055; color: #2b0055;}
-}
-
-@-webkit-keyframes color-anime20 {
-0% {border-color: #bf80ff; color: #bf80ff;}
-33% {border-color: #2b0055; color: #2b0055;}
-}
-
-@-o-keyframes color-anime20 {
-0% {border-color: #bf80ff; color: #bf80ff;}
-33% {border-color: #2b0055; color: #2b0055;}
-}
-
-@-ms-keyframes color-anime20 {
-0% {border-color: #bf80ff; color: #bf80ff;}
-33% {border-color: #2b0055; color: #2b0055;}
-}
-/*--------------------------*/
-@-moz-keyframes color-anime21 {
-0% {border-color: #ea95ea; color: #ea95ea;}
-33% {border-color: #470e47; color: #470e47;}
-}
-
-@-webkit-keyframes color-anime21 {
-0% {border-color: #ea95ea; color: #ea95ea;}
-33% {border-color: #470e47; color: #470e47;}
-}
-
-@-o-keyframes color-anime21 {
-0% {border-color: #ea95ea; color: #ea95ea;}
-33% {border-color: #470e47; color: #470e47;}
-}
-
-@-ms-keyframes color-anime21 {
-0% {border-color: #ea95ea; color: #ea95ea;}
-33% {border-color: #470e47; color: #470e47;}
-}
-
-/*--------------------------*/
-@-moz-keyframes color-anime22 {
-0% {border-color: #ff80ff; color: #ff80ff;}
-33% {border-color: #550055; color: #550055;}
-}
-
-@-webkit-keyframes color-anime22 {
-0% {border-color: #ff80ff; color: #ff80ff;}
-33% {border-color: #550055; color: #550055;}
-}
-
-@-o-keyframes color-anime22 {
-0% {border-color: #ff80ff; color: #ff80ff;}
-33% {border-color: #550055; color: #550055;}
-}
-
-@-ms-keyframes color-anime22 {
-0% {border-color: #ff80ff; color: #ff80ff;}
-33% {border-color: #550055; color: #550055;}
-}
-/*--------------------------*/
-@-moz-keyframes color-anime23 {
-0% {border-color: #ea95bf; color: #ea95bf;}
-33% {border-color: #470e2b; color: #470e2b;}
-}
-
-@-webkit-keyframes color-anime23 {
-0% {border-color: #ea95bf; color: #ea95bf;}
-33% {border-color: #470e2b; color: #470e2b;}
-}
-
-@-o-keyframes color-anime23 {
-0% {border-color: #ea95bf; color: #ea95bf;}
-33% {border-color: #470e2b; color: #470e2b;}
-}
-
-@-ms-keyframes color-anime23 {
-0% {border-color: #ea95bf; color: #ea95bf;}
-33% {border-color: #470e2b; color: #470e2b;}
-}
-/*--------------------------*/
-@-moz-keyframes color-anime24 {
-0% {border-color: #ff80bf; color: #ff80bf}
-33% {border-color: #55002b; color: #55002b;}
-}
-
-@-webkit-keyframes color-anime24 {
-0% {border-color: #ff80bf; color: #ff80bf}
-33% {border-color: #55002b; color: #55002b;}
-}
-
-@-o-keyframes color-anime24 {
-0% {border-color: #ff80bf; color: #ff80bf}
-33% {border-color: #55002b; color: #55002b;}
-}
-
-@-ms-keyframes color-anime24 {
-0% {border-color: #ff80bf; color: #ff80bf}
-33% {border-color: #55002b; color: #55002b;}
-}
-
-/*-------------基本設定-------------*/
-.color1{
-  border-color: rgb(57, 131, 86) !important;
-  color: rgb(57, 131, 86) !important;
-  -moz-animation: color-anime1 10s ease 0s infinite alternate;
-  -webkit-animation: color-anime1 10s ease 0s infinite alternate;
-  -o-animation: color-anime1 10s ease 0s infinite alternate;
-  -ms-animation: color-anime1 10s ease 0s infinite alternate;
-}
-.color2{
-  border-color: rgb(57, 131, 86) !important;
-  color: rgb(57, 131, 86) !important;
-  -moz-animation: color-anime2 10s ease 0s infinite alternate;
-  -webkit-animation: color-anime2 10s ease 0s infinite alternate;
-  -o-animation: color-anime2 10s ease 0s infinite alternate;
-  -ms-animation: color-anime2 10s ease 0s infinite alternate;
-}
-.color3{
-  border-color: rgb(57, 131, 86) !important;
-  color: rgb(57, 131, 86) !important;
-  -moz-animation: color-anime3 10s ease 0s infinite alternate;
-  -webkit-animation: color-anime3 10s ease 0s infinite alternate;
-  -o-animation: color-anime3 10s ease 0s infinite alternate;
-  -ms-animation: color-anime3 10s ease 0s infinite alternate;
-}
-.color4{
-  border-color: rgb(57, 131, 86) !important;
-  color: rgb(57, 131, 86) !important;
-  -moz-animation: color-anime4 10s ease 0s infinite alternate;
-  -webkit-animation: color-anime4 10s ease 0s infinite alternate;
-  -o-animation: color-anime4 10s ease 0s infinite alternate;
-  -ms-animation: color-anime4 10s ease 0s infinite alternate;
-}
-.color5{
-  border-color: rgb(57, 131, 86) !important;
-  color: rgb(57, 131, 86) !important;
-  -moz-animation: color-anime5 10s ease 0s infinite alternate;
-  -webkit-animation: color-anime5 10s ease 0s infinite alternate;
-  -o-animation: color-anime5 10s ease 0s infinite alternate;
-  -ms-animation: color-anime5 10s ease 0s infinite alternate;
-}
-.color6{
-  border-color: rgb(57, 131, 86) !important;
-  color: rgb(57, 131, 86) !important;
-  -moz-animation: color-anime6 10s ease 0s infinite alternate;
-  -webkit-animation: color-anime6 10s ease 0s infinite alternate;
-  -o-animation: color-anime6 10s ease 0s infinite alternate;
-  -ms-animation: color-anime6 10s ease 0s infinite alternate;
-}
-.color7{
-  border-color: rgb(57, 131, 86) !important;
-  color: rgb(57, 131, 86) !important;
-  -moz-animation: color-anime7 10s ease 0s infinite alternate;
-  -webkit-animation: color-anime7 10s ease 0s infinite alternate;
-  -o-animation: color-anime7 10s ease 0s infinite alternate;
-  -ms-animation: color-anime7 10s ease 0s infinite alternate;
-}
-.color8{
-  border-color: rgb(57, 131, 86) !important;
-  color: rgb(57, 131, 86) !important;
-  -moz-animation: color-anime8 10s ease 0s infinite alternate;
-  -webkit-animation: color-anime8 10s ease 0s infinite alternate;
-  -o-animation: color-anime8 10s ease 0s infinite alternate;
-  -ms-animation: color-anime8 10s ease 0s infinite alternate;
-}
-.color9{
-  border-color: rgb(57, 131, 86) !important;
-  color: rgb(57, 131, 86) !important;
-  -moz-animation: color-anime9 10s ease 0s infinite alternate;
-  -webkit-animation: color-anime9 10s ease 0s infinite alternate;
-  -o-animation: color-anime9 10s ease 0s infinite alternate;
-  -ms-animation: color-anime9 10s ease 0s infinite alternate;
-}
-.color10{
-  border-color: rgb(57, 131, 86) !important;
-  color: rgb(57, 131, 86) !important;
-  -moz-animation: color-anime10 10s ease 0s infinite alternate;
-  -webkit-animation: color-anime10 10s ease 0s infinite alternate;
-  -o-animation: color-anime10 10s ease 0s infinite alternate;
-  -ms-animation: color-anime10 10s ease 0s infinite alternate;
-}
-.color11{
-  border-color: rgb(57, 131, 86) !important;
-  color: rgb(57, 131, 86) !important;
-  -moz-animation: color-anime11 10s ease 0s infinite alternate;
-  -webkit-animation: color-anime11 10s ease 0s infinite alternate;
-  -o-animation: color-anime11 10s ease 0s infinite alternate;
-  -ms-animation: color-anime11 10s ease 0s infinite alternate;
-}
-.color12{
-  border-color: rgb(57, 131, 86) !important;
-  color: rgb(57, 131, 86) !important;
-  -moz-animation: color-anime12 10s ease 0s infinite alternate;
-  -webkit-animation: color-anime12 10s ease 0s infinite alternate;
-  -o-animation: color-anime12 10s ease 0s infinite alternate;
-  -ms-animation: color-anime12 10s ease 0s infinite alternate;
-}
-.color13{
-  border-color: rgb(57, 131, 86) !important;
-  color: rgb(57, 131, 86) !important;
-  -moz-animation: color-anime13 10s ease 0s infinite alternate;
-  -webkit-animation: color-anime13 10s ease 0s infinite alternate;
-  -o-animation: color-anime13 10s ease 0s infinite alternate;
-  -ms-animation: color-anime13 10s ease 0s infinite alternate;
-}
-.color14{
-  border-color: rgb(57, 131, 86) !important;
-  color: rgb(57, 131, 86) !important;
-  -moz-animation: color-anime14 10s ease 0s infinite alternate;
-  -webkit-animation: color-anime14 10s ease 0s infinite alternate;
-  -o-animation: color-anime14 10s ease 0s infinite alternate;
-  -ms-animation: color-anime14 10s ease 0s infinite alternate;
-}
-.color15{
-  border-color: rgb(57, 131, 86) !important;
-  color: rgb(57, 131, 86) !important;
-  -moz-animation: color-anime15 10s ease 0s infinite alternate;
-  -webkit-animation: color-anime15 10s ease 0s infinite alternate;
-  -o-animation: color-anime15 10s ease 0s infinite alternate;
-  -ms-animation: color-anime15 10s ease 0s infinite alternate;
-}
-.color16{
-  border-color: rgb(57, 131, 86) !important;
-  color: rgb(57, 131, 86) !important;
-  -moz-animation: color-anime16 10s ease 0s infinite alternate;
-  -webkit-animation: color-anime16 10s ease 0s infinite alternate;
-  -o-animation: color-anime16 10s ease 0s infinite alternate;
-  -ms-animation: color-anime16 10s ease 0s infinite alternate;
-}
-.color17{
-  border-color: rgb(57, 131, 86) !important;
-  color: rgb(57, 131, 86) !important;
-  -moz-animation: color-anime17 10s ease 0s infinite alternate;
-  -webkit-animation: color-anime17 10s ease 0s infinite alternate;
-  -o-animation: color-anime17 10s ease 0s infinite alternate;
-  -ms-animation: color-anime17 10s ease 0s infinite alternate;
-}
-.color18{
-  border-color: rgb(57, 131, 86) !important;
-  color: rgb(57, 131, 86) !important;
-  -moz-animation: color-anime18 10s ease 0s infinite alternate;
-  -webkit-animation: color-anime18 10s ease 0s infinite alternate;
-  -o-animation: color-anime18 10s ease 0s infinite alternate;
-  -ms-animation: color-anime18 10s ease 0s infinite alternate;
-}
-.color19{
-  border-color: rgb(57, 131, 86) !important;
-  color: rgb(57, 131, 86) !important;
-  -moz-animation: color-anime19 10s ease 0s infinite alternate;
-  -webkit-animation: color-anime19 10s ease 0s infinite alternate;
-  -o-animation: color-anime19 10s ease 0s infinite alternate;
-  -ms-animation: color-anime19 10s ease 0s infinite alternate;
-}
-.color20{
-  border-color: rgb(57, 131, 86) !important;
-  color: rgb(57, 131, 86) !important;
-  -moz-animation: color-anime20 10s ease 0s infinite alternate;
-  -webkit-animation: color-anime20 10s ease 0s infinite alternate;
-  -o-animation: color-anime20 10s ease 0s infinite alternate;
-  -ms-animation: color-anime20 10s ease 0s infinite alternate;
-}
-.color21{
-  border-color: rgb(57, 131, 86) !important;
-  color: rgb(57, 131, 86) !important;
-  -moz-animation: color-anime21 10s ease 0s infinite alternate;
-  -webkit-animation: color-anime21 10s ease 0s infinite alternate;
-  -o-animation: color-anime21 10s ease 0s infinite alternate;
-  -ms-animation: color-anime21 10s ease 0s infinite alternate;
-}
-.color22{
-  border-color: rgb(57, 131, 86) !important;
-  color: rgb(57, 131, 86) !important;
-  -moz-animation: color-anime22 10s ease 0s infinite alternate;
-  -webkit-animation: color-anime22 10s ease 0s infinite alternate;
-  -o-animation: color-anime22 10s ease 0s infinite alternate;
-  -ms-animation: color-anime22 10s ease 0s infinite alternate;
-}
-.color23{
-  border-color: rgb(57, 131, 86) !important;
-  color: rgb(57, 131, 86) !important;
-  -moz-animation: color-anime23 10s ease 0s infinite alternate;
-  -webkit-animation: color-anime23 10s ease 0s infinite alternate;
-  -o-animation: color-anime23 10s ease 0s infinite alternate;
-  -ms-animation: color-anime23 10s ease 0s infinite alternate;
-}
-.color24{
-  border-color: rgb(57, 131, 86) !important;
-  color: rgb(57, 131, 86) !important;
-  -moz-animation: color-anime24 10s ease 0s infinite alternate;
-  -webkit-animation: color-anime24 10s ease 0s infinite alternate;
-  -o-animation: color-anime24 10s ease 0s infinite alternate;
-  -ms-animation: color-anime24 10s ease 0s infinite alternate;
-}
 html, body{
   height: 100%;
   margin: 0;
   padding: 0;
+}
+body{
   background-color: black;
 }
+.white{
+  background-color: white;
+}
+.switch{
+  position: absolute;
+  background-color:white;
+  border: solid 1px black;
+  padding: 15px;
+  left: 10px;
+  z-index: 99;
+}
 
+.clear{
+  clear: both;
+}
 .panel{
+    /*transform-origin: 200px 200px;
+    -moz-animation: spin 7s  infinite alternate;
+    -webkit-animation: spin 7s  infinite alternate;
+    -o-animation: spin 7s  infinite alternate;
+    -ms-animation: spin 7s  infinite alternate;*/
   width: 980px;
+  height: 100%;
   position: relative;
-  margin: 0 auto;
+  margin: 10% auto;
 }
 .back{
   display: none;
@@ -746,10 +47,10 @@ html, body{
 }
 .bg-color{
   background-color: rgb(57, 131, 86) !important;
-  -moz-animation: bg-anime1 10s ease 0s infinite alternate;
-  -webkit-animation: bg-anime1 10s ease 0s infinite alternate;
-  -o-animation: bg-anime1 10s ease 0s infinite alternate;
-  -ms-animation: bg-anime1 10s ease 0s infinite alternate;
+  -moz-animation: bg-anime1 7s ease 0s infinite alternate;
+  -webkit-animation: bg-anime1 7s ease 0s infinite alternate;
+  -o-animation: bg-anime1 7s ease 0s infinite alternate;
+  -ms-animation: bg-anime1 7s ease 0s infinite alternate;
 }
 
 
@@ -1137,18 +438,62 @@ html, body{
   top: -60px;
 }
 /*-------------がっ死ー-------------*/
-.arc-r {
+.arc-c-r{
   transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -webkit-transform: rotate(0deg);
   -o-transform: rotate(0deg);
   -ms-transform: rotate(0deg);
-  width: 40px;
-  height: 242px;
-  left: 545px;
+  top: 87px;
+  left: 543px;
+  position: absolute;
+  width: 50px;
+  height: 247px;
   z-index: 5;
-  top: 82px;
-  border-radius: 400% 20000000% 20000001% 4000%;
+}
+.arc-c-l{
+  transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  -webkit-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  top: 70px;
+  left: 384px;
+  position: absolute;
+  width: 50px;
+  height: 247px;
+  z-index: 5;
+}
+.arc-c-t{
+  transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  top: 0px;
+  left: 475px;
+  position: absolute;
+  width: 50px;
+  height: 247px;
+  z-index: 5;
+}
+.arc-c-b{
+  transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  top: 161px;
+  left: 454px;
+  position: absolute;
+  width: 50px;
+  height: 247px;
+  z-index: 5;
+}
+.arc {
+  width: 40px;
+  height: 227px;
+  border-radius: 0px 65% 65% 0px;
   border-right: 15px solid;
 }
 .arc-l {
@@ -1213,4 +558,857 @@ html, body{
   z-index: 5;
   top: 155px;
   left: 441px;
+}
+/*-------------spin-------------*/
+@-moz-keyframes spin {
+0% {
+   transform: rotate(90deg,90deg);
+  -moz-transform: rotate(90deg,90deg);
+  -webkit-transform: rotate(90deg,90deg);
+  -o-transform: rotate(90deg,90deg);
+  -ms-transform: rotate(90deg,90deg);
+
+}
+100% {
+  transform: rotate(360deg, 360deg);
+  -moz-transform: rotate(360deg, 360deg);
+  -webkit-transform: rotate(360deg, 360deg);
+  -o-transform: rotate(360deg, 360deg);
+  -ms-transform: rotate(360deg, 360deg);
+}
+}
+
+@-webkit-keyframes spin {
+0% {
+  transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  -webkit-transform: rotateX(0deg);
+  -o-transform: rotateX(0deg);
+  -ms-transform: rotateX(0deg);
+}
+10% {
+  transform: rotateX(360deg);
+  -moz-transform: rotateX(360deg);
+  -webkit-transform: rotateX(360deg);
+  -o-transform: rotateX(360deg);
+  -ms-transform: rotateX(360deg);
+}
+
+40%{
+  margin-top: 0px;
+}
+60%{
+  transform-origin: 400px 0px;
+  transform: scale(2);
+  -moz-transform: scale(2);
+  -webkit-transform: scale(2);
+  -o-transform: scale(2);
+  -ms-transform: scale(2);
+}
+70%{
+  transform-origin: 400px 400px;
+  transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+}
+75%{
+  opacity: 0.2;
+}
+85%{
+  opacity: 1;
+}
+}
+
+@-o-keyframes spin {
+0% {
+  transform: rotate(90deg,90deg);
+  -moz-transform: rotate(90deg,90deg);
+  -webkit-transform: rotate(90deg,90deg);
+  -o-transform: rotate(90deg,90deg);
+  -ms-transform: rotate(90deg,90deg);
+}
+100% {
+  transform: rotate(360deg, 360deg);
+  -moz-transform: rotate(360deg, 360deg);
+  -webkit-transform: rotate(360deg, 360deg);
+  -o-transform: rotate(360deg, 360deg);
+  -ms-transform: rotate(360deg, 360deg);
+}
+}
+
+@-ms-keyframes spin {
+0% {
+  transform: rotate(90deg,90deg);
+  -moz-transform: rotate(90deg,90deg);
+  -webkit-transform: rotate(90deg,90deg);
+  -o-transform: rotate(90deg,90deg);
+  -ms-transform: rotate(90deg,90deg);
+}
+100% {
+  transform: rotate(360deg, 360deg);
+  -moz-transform: rotate(360deg, 360deg);
+  -webkit-transform: rotate(360deg, 360deg);
+  -o-transform: rotate(360deg, 360deg);
+  -ms-transform: rotate(360deg, 360deg);
+}
+}
+/*-------------カラーセット-------------*/
+@-moz-keyframes bg {
+0% {background-color: black;}
+100% {background-color: darkblue;}
+}
+
+@-webkit-keyframes bg {
+0% {background-color: black;}
+100% {background-color: darkblue;}
+}
+
+@-o-keyframes bg {
+0% {background-color: black;}
+100% {background-color: darkblue;}
+}
+
+@-ms-keyframes bg {
+0% {background-color: black;}
+100% {background-color: darkblue;}
+}
+
+/*-------------カラーセット-------------*/
+
+@-moz-keyframes bg-anime1 {
+0% {background-color: purple; opacity: 0.4;}
+100% {background-color: darkred; opacity: 1;}
+}
+
+@-webkit-keyframes bg-anime1 {
+0% {background-color: purple; opacity: 0.4;}
+100% {background-color: darkred; opacity: 1;}
+}
+
+@-o-keyframes bg-anime1 {
+0% {background-color: purple; opacity: 0.4;}
+100% {background-color: darkred; opacity: 1;}
+}
+
+@-ms-keyframes bg-anime1 {
+0% {background-color: purple; opacity: 0.4;}
+100% {background-color: darkred; opacity: 1;}
+}
+
+@-moz-keyframes color-anime1 {
+0% {border-color: #d5aaaa; color: #d5aaaa;}
+100% {border-color: #55002b; color: #55002b;}
+}
+
+@-webkit-keyframes color-anime1 {
+0% {border-color: #d5aaaa; color: #d5aaaa;}
+100% {border-color: #55002b; color: #55002b;}
+}
+
+@-o-keyframes color-anime1 {
+0% {border-color: #d5aaaa; color: #d5aaaa;}
+100% {border-color: #55002b; color: #55002b;}
+}
+
+@-ms-keyframes color-anime1 {
+0% {border-color: #d5aaaa; color: #d5aaaa;}
+100% {border-color: #55002b; color: #55002b;}
+}
+/*--------------------------*/
+@-moz-keyframes color-anime2 {
+0% {border-color: #ea9595; color: #ea9595;}
+100% {border-color: #470e2b; color: #470e2b;}
+}
+
+@-webkit-keyframes color-anime2 {
+0% {border-color: #ea9595; color: #ea9595;}
+100% {border-color: #470e2b; color: #470e2b;}
+}
+
+@-o-keyframes color-anime2 {
+0% {border-color: #ea9595; color: #ea9595;}
+100% {border-color: #470e2b; color: #470e2b;}
+}
+
+@-ms-keyframes color-anime2 {
+0% {border-color: #ea9595; color: #ea9595;}
+100% {border-color: #470e2b; color: #470e2b;}
+}
+/*--------------------------*/
+@-moz-keyframes color-anime3 {
+0% {border-color: #ff8080; color: #ff8080;}
+100% {border-color: #550055; color: #550055;}
+}
+
+@-webkit-keyframes color-anime3 {
+0% {border-color: #ff8080; color: #ff8080;}
+100% {border-color: #550055; color: #550055;}
+}
+
+@-o-keyframes color-anime3 {
+0% {border-color: #ff8080; color: #ff8080;}
+100% {border-color: #550055; color: #550055;}
+}
+
+@-ms-keyframes color-anime3 {
+0% {border-color: #ff8080; color: #ff8080;}
+100% {border-color: #550055; color: #550055;}
+}
+
+/*--------------------------*/
+@-moz-keyframes color-anime4 {
+0% {border-color: #ffbf80; color: #ffbf80;}
+100% {border-color: #470e47; color: #470e47;}
+}
+
+@-webkit-keyframes color-anime4 {
+0% {border-color: #ffbf80; color: #ffbf80;}
+100% {border-color: #470e47; color: #470e47;}
+}
+
+@-o-keyframes color-anime4 {
+0% {border-color: #ffbf80; color: #ffbf80;}
+100% {border-color: #470e47; color: #470e47;}
+}
+
+@-ms-keyframes color-anime4 {
+0% {border-color: #ffbf80; color: #ffbf80;}
+100% {border-color: #470e47; color: #470e47;}
+}
+/*--------------------------*/
+@-moz-keyframes color-anime5 {
+0% {border-color: #ffff80; color: #ffff80;}
+100% {border-color: #2b0055; color: #2b0055;}
+}
+
+@-webkit-keyframes color-anime5 {
+0% {border-color: #ffff80; color: #ffff80;}
+100% {border-color: #2b0055; color: #2b0055;}
+}
+
+@-o-keyframes color-anime5 {
+0% {border-color: #ffff80; color: #ffff80;}
+100% {border-color: #2b0055; color: #2b0055;}
+}
+
+@-ms-keyframes color-anime5 {
+0% {border-color: #ffff80; color: #ffff80;}
+100% {border-color: #2b0055; color: #2b0055;}
+}
+
+/*--------------------------*/
+@-moz-keyframes color-anime6 {
+0% {border-color: #bfea95; color: #bfea95;}
+100% {border-color: #2b0e47; color: #2b0e47;}
+}
+
+@-webkit-keyframes color-anime6 {
+0% {border-color: #bfea95; color: #bfea95;}
+100% {border-color: #2b0e47; color: #2b0e47;}
+}
+
+@-o-keyframes color-anime6 {
+0% {border-color: #bfea95; color: #bfea95;}
+100% {border-color: #2b0e47; color: #2b0e47;}
+}
+
+@-ms-keyframes color-anime6 {
+0% {border-color: #bfea95; color: #bfea95;}
+100% {border-color: #2b0e47; color: #2b0e47;}
+}
+
+/*--------------------------*/
+@-moz-keyframes color-anime7 {
+0% {border-color: #bfff80; color: #bfff80;}
+100% {border-color: #000055; color: #000055;}
+}
+
+@-webkit-keyframes color-anime7 {
+0% {border-color: #bfff80; color: #bfff80;}
+100% {border-color: #000055; color: #000055;}
+}
+
+@-o-keyframes color-anime7 {
+0% {border-color: #bfff80; color: #bfff80;}
+100% {border-color: #000055; color: #000055;}
+}
+
+@-ms-keyframes color-anime7 {
+0% {border-color: #bfff80; color: #bfff80;}
+100% {border-color: #000055; color: #000055;}
+}
+
+/*--------------------------*/
+@-moz-keyframes color-anime8 {
+0% {border-color: #aad5aa; color: #aad5aa;}
+100% {border-color: #0e0e47; color: #0e0e47;}
+}
+
+@-webkit-keyframes color-anime8 {
+0% {border-color: #aad5aa; color: #aad5aa;}
+100% {border-color: #0e0e47; color: #0e0e47;}
+}
+
+@-o-keyframes color-anime8 {
+0% {border-color: #aad5aa; color: #aad5aa;}
+100% {border-color: #0e0e47; color: #0e0e47;}
+}
+
+@-ms-keyframes color-anime8 {
+0% {border-color: #aad5aa; color: #aad5aa;}
+100% {border-color: #0e0e47; color: #0e0e47;}
+}
+
+/*--------------------------*/
+@-moz-keyframes color-anime9{
+0% {border-color: #95ea95; color: #95ea95;}
+100% {border-color: #002b55; color: #002b55;}
+}
+
+@-webkit-keyframes color-anime9{
+0% {border-color: #95ea95; color: #95ea95;}
+100% {border-color: #002b55; color: #002b55;}
+}
+
+@-o-keyframes color-anime9{
+0% {border-color: #95ea95; color: #95ea95;}
+100% {border-color: #002b55; color: #002b55;}
+}
+
+@-ms-keyframes color-anime9{
+0% {border-color: #95ea95; color: #95ea95;}
+100% {border-color: #002b55; color: #002b55;}
+}
+
+/*--------------------------*/
+@-moz-keyframes color-anime10 {
+0% {border-color: #80ff80; color: #80ff80;}
+100% {border-color: #0e2b47; color: #0e2b47;}
+}
+
+@-webkit-keyframes color-anime10 {
+0% {border-color: #80ff80; color: #80ff80;}
+100% {border-color: #0e2b47; color: #0e2b47;}
+}
+
+@-o-keyframes color-anime10 {
+0% {border-color: #80ff80; color: #80ff80;}
+100% {border-color: #0e2b47; color: #0e2b47;}
+}
+
+@-ms-keyframes color-anime10 {
+0% {border-color: #80ff80; color: #80ff80;}
+100% {border-color: #0e2b47; color: #0e2b47;}
+}
+
+/*--------------------------*/
+@-moz-keyframes color-anime11 {
+0% {border-color: #95eabf; color: #95eabf;}
+100% {border-color: #005555; color: #005555;}
+}
+
+@-webkit-keyframes color-anime11 {
+0% {border-color: #95eabf; color: #95eabf;}
+100% {border-color: #005555; color: #005555;}
+}
+
+@-o-keyframes color-anime11 {
+0% {border-color: #95eabf; color: #95eabf;}
+100% {border-color: #005555; color: #005555;}
+}
+
+@-ms-keyframes color-anime11 {
+0% {border-color: #95eabf; color: #95eabf;}
+100% {border-color: #005555; color: #005555;}
+}
+
+/*--------------------------*/
+@-moz-keyframes color-anime12 {
+0% {border-color: #80ffbf; color: #80ffbf;}
+100% {border-color: #0e4747; color: #0e4747;}
+}
+
+@-webkit-keyframes color-anime12 {
+0% {border-color: #80ffbf; color: #80ffbf;}
+100% {border-color: #0e4747; color: #0e4747;}
+}
+
+@-o-keyframes color-anime12 {
+0% {border-color: #80ffbf; color: #80ffbf;}
+100% {border-color: #0e4747; color: #0e4747;}
+}
+
+@-ms-keyframes color-anime12 {
+0% {border-color: #80ffbf; color: #80ffbf;}
+100% {border-color: #0e4747; color: #0e4747;}
+}
+
+/*--------------------------*/
+@-moz-keyframes color-anime13 {
+0% {border-color: #95eaea; color: #95eaea;}
+100% {border-color: #00552b; color: #00552b;}
+}
+
+@-webkit-keyframes color-anime13 {
+0% {border-color: #95eaea; color: #95eaea;}
+100% {border-color: #00552b; color: #00552b;}
+}
+
+@-o-keyframes color-anime13 {
+0% {border-color: #95eaea; color: #95eaea;}
+100% {border-color: #00552b; color: #00552b;}
+}
+
+@-ms-keyframes color-anime13 {
+0% {border-color: #95eaea; color: #95eaea;}
+100% {border-color: #00552b; color: #00552b;}
+}
+
+/*--------------------------*/
+@-moz-keyframes color-anime14 {
+0% {border-color: #80ffff; color: #80ffff;}
+100% {border-color: #0e472b; color: #0e472b;}
+}
+
+@-webkit-keyframes color-anime14 {
+0% {border-color: #80ffff; color: #80ffff;}
+100% {border-color: #0e472b; color: #0e472b;}
+}
+
+@-o-keyframes color-anime14 {
+0% {border-color: #80ffff; color: #80ffff;}
+100% {border-color: #0e472b; color: #0e472b;}
+}
+
+@-ms-keyframes color-anime14 {
+0% {border-color: #80ffff; color: #80ffff;}
+100% {border-color: #0e472b; color: #0e472b;}
+}
+
+/*--------------------------*/
+@-moz-keyframes color-anime15 {
+0% {border-color: #95bfea; color: #95bfea;}
+100% {border-color: #005500; color: #005500;}
+}
+
+@-webkit-keyframes color-anime15 {
+0% {border-color: #95bfea; color: #95bfea;}
+100% {border-color: #005500; color: #005500;}
+}
+
+@-o-keyframes color-anime15 {
+0% {border-color: #95bfea; color: #95bfea;}
+100% {border-color: #005500; color: #005500;}
+}
+
+@-ms-keyframes color-anime15 {
+0% {border-color: #95bfea; color: #95bfea;}
+100% {border-color: #005500; color: #005500;}
+}
+
+/*--------------------------*/
+@-moz-keyframes color-anime16 {
+0% {border-color: #80bfff; color: #80bfff;}
+100% {border-color: #0e470e; color: #0e470e;}
+}
+
+@-webkit-keyframes color-anime16 {
+0% {border-color: #80bfff; color: #80bfff;}
+100% {border-color: #0e470e; color: #0e470e;}
+}
+
+@-o-keyframes color-anime16 {
+0% {border-color: #80bfff; color: #80bfff;}
+100% {border-color: #0e470e; color: #0e470e;}
+}
+
+@-ms-keyframes color-anime16 {
+0% {border-color: #80bfff; color: #80bfff;}
+100% {border-color: #0e470e; color: #0e470e;}
+}
+
+/*--------------------------*/
+@-moz-keyframes color-anime17 {
+0% {border-color: #9595ea; color: #9595ea;}
+100% {border-color: #1d381d; color: #1d381d;}
+}
+
+@-webkit-keyframes color-anime17 {
+0% {border-color: #9595ea; color: #9595ea;}
+100% {border-color: #1d381d; color: #1d381d;}
+}
+
+@-o-keyframes color-anime17 {
+0% {border-color: #9595ea; color: #9595ea;}
+100% {border-color: #1d381d; color: #1d381d;}
+}
+
+@-ms-keyframes color-anime17 {
+0% {border-color: #9595ea; color: #9595ea;}
+100% {border-color: #1d381d; color: #1d381d;}
+}
+
+/*--------------------------*/
+@-moz-keyframes color-anime18 {
+0% {border-color: #8080ff; color: #8080ff;}
+100% {border-color: #2b5500; color: #2b5500;}
+}
+
+@-webkit-keyframes color-anime18 {
+0% {border-color: #8080ff; color: #8080ff;}
+100% {border-color: #2b5500; color: #2b5500;}
+}
+
+@-o-keyframes color-anime18 {
+0% {border-color: #8080ff; color: #8080ff;}
+100% {border-color: #2b5500; color: #2b5500;}
+}
+
+@-ms-keyframes color-anime18 {
+0% {border-color: #8080ff; color: #8080ff;}
+100% {border-color: #2b5500; color: #2b5500;}
+}
+/*--------------------------*/
+@-moz-keyframes color-anime19 {
+0% {border-color: #bf95ea; color: #bf95ea;}
+100% {border-color: #2b470e; color: #2b470e;}
+}
+
+@-webkit-keyframes color-anime19 {
+0% {border-color: #bf95ea; color: #bf95ea;}
+100% {border-color: #2b470e; color: #2b470e;}
+}
+
+@-o-keyframes color-anime19 {
+0% {border-color: #bf95ea; color: #bf95ea;}
+100% {border-color: #2b470e; color: #2b470e;}
+}
+
+@-ms-keyframes color-anime19 {
+0% {border-color: #bf95ea; color: #bf95ea;}
+100% {border-color: #2b470e; color: #2b470e;}
+}
+/*--------------------------*/
+@-moz-keyframes color-anime20 {
+0% {border-color: #bf80ff; color: #bf80ff;}
+100% {border-color: #555500; color: #555500;}
+}
+
+@-webkit-keyframes color-anime20 {
+0% {border-color: #bf80ff; color: #bf80ff;}
+100% {border-color: #555500; color: #555500;}
+}
+
+@-o-keyframes color-anime20 {
+0% {border-color: #bf80ff; color: #bf80ff;}
+100% {border-color: #555500; color: #555500;}
+}
+
+@-ms-keyframes color-anime20 {
+0% {border-color: #bf80ff; color: #bf80ff;}
+100% {border-color: #555500; color: #555500;}
+}
+/*--------------------------*/
+@-moz-keyframes color-anime21 {
+0% {border-color: #ea95ea; color: #ea95ea;}
+100% {border-color: #552b00; color: #552b00;}
+}
+
+@-webkit-keyframes color-anime21 {
+0% {border-color: #ea95ea; color: #ea95ea;}
+100% {border-color: #552b00; color: #552b00;}
+}
+
+@-o-keyframes color-anime21 {
+0% {border-color: #ea95ea; color: #ea95ea;}
+100% {border-color: #552b00; color: #552b00;}
+}
+
+@-ms-keyframes color-anime21 {
+0% {border-color: #ea95ea; color: #ea95ea;}
+100% {border-color: #552b00; color: #552b00;}
+}
+
+/*--------------------------*/
+@-moz-keyframes color-anime22 {
+0% {border-color: #ff80ff; color: #ff80ff;}
+100% {border-color: #550000; color: #550000;}
+}
+
+@-webkit-keyframes color-anime22 {
+0% {border-color: #ff80ff; color: #ff80ff;}
+100% {border-color: #550000; color: #550000;}
+}
+
+@-o-keyframes color-anime22 {
+0% {border-color: #ff80ff; color: #ff80ff;}
+100% {border-color: #550000; color: #550000;}
+}
+
+@-ms-keyframes color-anime22 {
+0% {border-color: #ff80ff; color: #ff80ff;}
+100% {border-color: rgb(57, 131, 86); color: rgb(57, 131, 86);}
+}
+/*--------------------------*/
+@-moz-keyframes color-anime23 {
+0% {border-color: #ea95bf; color: #ea95bf;}
+100% {border-color: #470e0e; color: #470e0e;}
+}
+
+@-webkit-keyframes color-anime23 {
+0% {border-color: #ea95bf; color: #ea95bf;}
+100% {border-color: #470e0e; color: #470e0e;}
+}
+
+@-o-keyframes color-anime23 {
+0% {border-color: #ea95bf; color: #ea95bf;}
+100% {border-color: #470e0e; color: #470e0e;}
+}
+
+@-ms-keyframes color-anime23 {
+0% {border-color: #ea95bf; color: #ea95bf;}
+100% {border-color: #470e0e; color: #470e0e;}
+}
+/*--------------------------*/
+@-moz-keyframes color-anime24 {
+0% {border-color: #ff80bf; color: #ff80bf}
+100%{border-color: #381d1d; color: #381d1d;}
+}
+
+@-webkit-keyframes color-anime24 {
+0% {border-color: #ff80bf; color: #ff80bf}
+100%{border-color: #381d1d; color: #381d1d;}
+}
+
+@-o-keyframes color-anime24 {
+0% {border-color: #ff80bf; color: #ff80bf}
+100%{border-color: #381d1d; color: #381d1d;}
+}
+
+@-ms-keyframes color-anime24 {
+0% {border-color: #ff80bf; color: #ff80bf}
+100%{border-color: #381d1d; color: #381d1d;}
+}
+/*--------------------------*/
+@-moz-keyframes color-anime25 {
+0% {border-color: purple; color: purple; opacity: 0.4;}
+100%{border-color: darkred; color: darkred; opacity: 1;}
+}
+
+@-webkit-keyframes color-anime25 {
+0% {border-color: purple; color: purple; opacity: 0.4;}
+100%{border-color: darkred; color: darkred; opacity: 1;}
+}
+
+@-o-keyframes color-anime25 {
+0% {border-color: purple; color: purple; opacity: 0.4;}
+100%{border-color: darkred; color: darkred; opacity: 1;}
+}
+
+@-ms-keyframes color-anime25 {
+0% {border-color: purple; color: purple; opacity: 0.4;}
+100%{border-color: darkred; color: darkred; opacity: 1;}
+}
+/*-------------基本設定-------------*/
+.color1{
+  border-color: rgb(57, 131, 86) !important;
+  color: rgb(57, 131, 86) !important;
+  -moz-animation: color-anime1 7s ease 0s infinite alternate;
+  -webkit-animation: color-anime1 7s ease 0s infinite alternate;
+  -o-animation: color-anime1 7s ease 0s infinite alternate;
+  -ms-animation: color-anime1 7s ease 0s infinite alternate;
+}
+.color2{
+  border-color: rgb(57, 131, 86) !important;
+  color: rgb(57, 131, 86) !important;
+  -moz-animation: color-anime2 7s ease 0s infinite alternate;
+  -webkit-animation: color-anime2 7s ease 0s infinite alternate;
+  -o-animation: color-anime2 7s ease 0s infinite alternate;
+  -ms-animation: color-anime2 7s ease 0s infinite alternate;
+}
+.color3{
+  border-color: rgb(57, 131, 86) !important;
+  color: rgb(57, 131, 86) !important;
+  -moz-animation: color-anime3 7s ease 0s infinite alternate;
+  -webkit-animation: color-anime3 7s ease 0s infinite alternate;
+  -o-animation: color-anime3 7s ease 0s infinite alternate;
+  -ms-animation: color-anime3 7s ease 0s infinite alternate;
+}
+.color4{
+  border-color: rgb(57, 131, 86) !important;
+  color: rgb(57, 131, 86) !important;
+  -moz-animation: color-anime4 7s ease 0s infinite alternate;
+  -webkit-animation: color-anime4 7s ease 0s infinite alternate;
+  -o-animation: color-anime4 7s ease 0s infinite alternate;
+  -ms-animation: color-anime4 7s ease 0s infinite alternate;
+}
+.color5{
+  border-color: rgb(57, 131, 86) !important;
+  color: rgb(57, 131, 86) !important;
+  -moz-animation: color-anime5 7s ease 0s infinite alternate;
+  -webkit-animation: color-anime5 7s ease 0s infinite alternate;
+  -o-animation: color-anime5 7s ease 0s infinite alternate;
+  -ms-animation: color-anime5 7s ease 0s infinite alternate;
+}
+.color6{
+  border-color: rgb(57, 131, 86) !important;
+  color: rgb(57, 131, 86) !important;
+  -moz-animation: color-anime6 7s ease 0s infinite alternate;
+  -webkit-animation: color-anime6 7s ease 0s infinite alternate;
+  -o-animation: color-anime6 7s ease 0s infinite alternate;
+  -ms-animation: color-anime6 7s ease 0s infinite alternate;
+}
+.color7{
+  border-color: rgb(57, 131, 86) !important;
+  color: rgb(57, 131, 86) !important;
+  -moz-animation: color-anime7 7s ease 0s infinite alternate;
+  -webkit-animation: color-anime7 7s ease 0s infinite alternate;
+  -o-animation: color-anime7 7s ease 0s infinite alternate;
+  -ms-animation: color-anime7 7s ease 0s infinite alternate;
+}
+.color8{
+  border-color: rgb(57, 131, 86) !important;
+  color: rgb(57, 131, 86) !important;
+  -moz-animation: color-anime8 7s ease 0s infinite alternate;
+  -webkit-animation: color-anime8 7s ease 0s infinite alternate;
+  -o-animation: color-anime8 7s ease 0s infinite alternate;
+  -ms-animation: color-anime8 7s ease 0s infinite alternate;
+}
+.color9{
+  border-color: rgb(57, 131, 86) !important;
+  color: rgb(57, 131, 86) !important;
+  -moz-animation: color-anime9 7s ease 0s infinite alternate;
+  -webkit-animation: color-anime9 7s ease 0s infinite alternate;
+  -o-animation: color-anime9 7s ease 0s infinite alternate;
+  -ms-animation: color-anime9 7s ease 0s infinite alternate;
+}
+.color10{
+  border-color: rgb(57, 131, 86) !important;
+  color: rgb(57, 131, 86) !important;
+  -moz-animation: color-anime10 7s ease 0s infinite alternate;
+  -webkit-animation: color-anime10 7s ease 0s infinite alternate;
+  -o-animation: color-anime10 7s ease 0s infinite alternate;
+  -ms-animation: color-anime10 7s ease 0s infinite alternate;
+}
+.color11{
+  border-color: rgb(57, 131, 86) !important;
+  color: rgb(57, 131, 86) !important;
+  -moz-animation: color-anime11 7s ease 0s infinite alternate;
+  -webkit-animation: color-anime11 7s ease 0s infinite alternate;
+  -o-animation: color-anime11 7s ease 0s infinite alternate;
+  -ms-animation: color-anime11 7s ease 0s infinite alternate;
+}
+.color12{
+  border-color: rgb(57, 131, 86) !important;
+  color: rgb(57, 131, 86) !important;
+  -moz-animation: color-anime12 7s ease 0s infinite alternate;
+  -webkit-animation: color-anime12 7s ease 0s infinite alternate;
+  -o-animation: color-anime12 7s ease 0s infinite alternate;
+  -ms-animation: color-anime12 7s ease 0s infinite alternate;
+}
+.color13{
+  border-color: rgb(57, 131, 86) !important;
+  color: rgb(57, 131, 86) !important;
+  -moz-animation: color-anime13 7s ease 0s infinite alternate;
+  -webkit-animation: color-anime13 7s ease 0s infinite alternate;
+  -o-animation: color-anime13 7s ease 0s infinite alternate;
+  -ms-animation: color-anime13 7s ease 0s infinite alternate;
+}
+.color14{
+  border-color: rgb(57, 131, 86) !important;
+  color: rgb(57, 131, 86) !important;
+  -moz-animation: color-anime14 7s ease 0s infinite alternate;
+  -webkit-animation: color-anime14 7s ease 0s infinite alternate;
+  -o-animation: color-anime14 7s ease 0s infinite alternate;
+  -ms-animation: color-anime14 7s ease 0s infinite alternate;
+}
+.color15{
+  border-color: rgb(57, 131, 86) !important;
+  color: rgb(57, 131, 86) !important;
+  -moz-animation: color-anime15 7s ease 0s infinite alternate;
+  -webkit-animation: color-anime15 7s ease 0s infinite alternate;
+  -o-animation: color-anime15 7s ease 0s infinite alternate;
+  -ms-animation: color-anime15 7s ease 0s infinite alternate;
+}
+.color16{
+  border-color: rgb(57, 131, 86) !important;
+  color: rgb(57, 131, 86) !important;
+  -moz-animation: color-anime16 7s ease 0s infinite alternate;
+  -webkit-animation: color-anime16 7s ease 0s infinite alternate;
+  -o-animation: color-anime16 7s ease 0s infinite alternate;
+  -ms-animation: color-anime16 7s ease 0s infinite alternate;
+}
+.color17{
+  border-color: rgb(57, 131, 86) !important;
+  color: rgb(57, 131, 86) !important;
+  -moz-animation: color-anime17 7s ease 0s infinite alternate;
+  -webkit-animation: color-anime17 7s ease 0s infinite alternate;
+  -o-animation: color-anime17 7s ease 0s infinite alternate;
+  -ms-animation: color-anime17 7s ease 0s infinite alternate;
+}
+.color18{
+  border-color: rgb(57, 131, 86) !important;
+  color: rgb(57, 131, 86) !important;
+  -moz-animation: color-anime18 7s ease 0s infinite alternate;
+  -webkit-animation: color-anime18 7s ease 0s infinite alternate;
+  -o-animation: color-anime18 7s ease 0s infinite alternate;
+  -ms-animation: color-anime18 7s ease 0s infinite alternate;
+}
+.color19{
+  border-color: rgb(57, 131, 86) !important;
+  color: rgb(57, 131, 86) !important;
+  -moz-animation: color-anime19 7s ease 0s infinite alternate;
+  -webkit-animation: color-anime19 7s ease 0s infinite alternate;
+  -o-animation: color-anime19 7s ease 0s infinite alternate;
+  -ms-animation: color-anime19 7s ease 0s infinite alternate;
+}
+.color20{
+  border-color: rgb(57, 131, 86) !important;
+  color: rgb(57, 131, 86) !important;
+  -moz-animation: color-anime20 7s ease 0s infinite alternate;
+  -webkit-animation: color-anime20 7s ease 0s infinite alternate;
+  -o-animation: color-anime20 7s ease 0s infinite alternate;
+  -ms-animation: color-anime20 7s ease 0s infinite alternate;
+}
+.color21{
+  border-color: rgb(57, 131, 86) !important;
+  color: rgb(57, 131, 86) !important;
+  -moz-animation: color-anime21 7s ease 0s infinite alternate;
+  -webkit-animation: color-anime21 7s ease 0s infinite alternate;
+  -o-animation: color-anime21 7s ease 0s infinite alternate;
+  -ms-animation: color-anime21 7s ease 0s infinite alternate;
+}
+.color22{
+  border-color: rgb(57, 131, 86) !important;
+  color: rgb(57, 131, 86) !important;
+  -moz-animation: color-anime22 7s ease 0s infinite alternate;
+  -webkit-animation: color-anime22 7s ease 0s infinite alternate;
+  -o-animation: color-anime22 7s ease 0s infinite alternate;
+  -ms-animation: color-anime22 7s ease 0s infinite alternate;
+}
+.color23{
+  border-color: rgb(57, 131, 86) !important;
+  color: rgb(57, 131, 86) !important;
+  -moz-animation: color-anime23 7s ease 0s infinite alternate;
+  -webkit-animation: color-anime23 7s ease 0s infinite alternate;
+  -o-animation: color-anime23 7s ease 0s infinite alternate;
+  -ms-animation: color-anime23 7s ease 0s infinite alternate;
+}
+.color24{
+  border-color: rgb(57, 131, 86) !important;
+  color: rgb(57, 131, 86) !important;
+  -moz-animation: color-anime24 7s ease 0s infinite alternate;
+  -webkit-animation: color-anime24 7s ease 0s infinite alternate;
+  -o-animation: color-anime24 7s ease 0s infinite alternate;
+  -ms-animation: color-anime24 7s ease 0s infinite alternate;
+}
+.color25{
+  border-color: rgb(57, 131, 86) !important;
+  color: rgb(57, 131, 86) !important;
+  -moz-animation: color-anime25 7s ease 0s infinite alternate;
+  -webkit-animation: color-anime25 7s ease 0s infinite alternate;
+  -o-animation: color-anime25 7s ease 0s infinite alternate;
+  -ms-animation: color-anime25 7s ease 0s infinite alternate;
 }
